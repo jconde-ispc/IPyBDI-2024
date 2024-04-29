@@ -1,5 +1,5 @@
 Algoritmo PuntosEquipoFutbol
-	// Datos de entrada
+	// Datos de entrada --
 	Escribir "Ingrese la cantidad de partidos ganados del equipo"
 	Leer partidosGanados
 	
