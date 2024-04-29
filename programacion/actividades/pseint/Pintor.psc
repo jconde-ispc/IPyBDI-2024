@@ -1,5 +1,5 @@
 Algoritmo Pintor
-	//	Datos de entrada --
+	//	Datos de entrada ----
 	Escribir "Ingrese el alto de la pared"
 	Leer altoPared
 	Escribir "Ingrese el ancho de la pared"
