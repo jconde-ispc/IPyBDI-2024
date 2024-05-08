@@ -1,5 +1,5 @@
 edad = int(input("Ingrese la edad"))
-
+#esto es un comentario
 if edad > 18:
     print(f"La persona es mayor de edad, tiene {edad} años")
     if edad > 40:
