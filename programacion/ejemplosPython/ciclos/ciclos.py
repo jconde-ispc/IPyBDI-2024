@@ -2,7 +2,7 @@ i = 0
 while i < 7:
     print(i)
     if i == 4:
-        print("Breaking from loop")
+        print("Breaking 4444 from loop")
         break
     i += 1
 
@@ -14,7 +14,7 @@ for i in (0, 1, 2, 3, 4):
     if i == 2:
         break
 
-print("-------------------------")
+print("-------antes------------------")
 
 for i in (0, 1, 2, 3, 4, 5):
     if i == 2 or i == 4:
@@ -22,7 +22,7 @@ for i in (0, 1, 2, 3, 4, 5):
     print(i)
 
 #break and continue only operate on a single level of loop.
-print("-------------------------")
+print("------despues-------------------")
 
 def break_loop():
     for i in range(1, 5):
