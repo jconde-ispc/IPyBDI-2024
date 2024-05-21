@@ -30,7 +30,7 @@ esJubiado = int(input("Ingrese 0 si el cliente no es jubilado, cualquier otro nu
 
 montoParcial = unidadesDeLeche * 1000
 print(f"unidadesDeLeche {unidadesDeLeche} esJubiado {esJubiado}")
-
+#unidadesDeLeche = 15 y esJubiado=1
 if(unidadesDeLeche <=12 and not esJubiado):
     print("unidadesDeLeche <=12 and not esJubiado")
     montoAPagar = montoParcial
@@ -40,16 +40,36 @@ elif((unidadesDeLeche >12 and unidadesDeLeche <= 24) and not esJubiado):
 elif(unidadesDeLeche > 24 and not esJubiado):
     print("unidadesDeLeche > 24 and not esJubiado")
     montoAPagar = montoParcial * 0.85
-if(unidadesDeLeche <=12 and esJubiado):
+elif(unidadesDeLeche <=12 and esJubiado):
     print("unidadesDeLeche <=12 and esJubiado")
     montoAPagar = montoParcial * 0.9
-elif((unidadesDeLeche >12 and unidadesDeLeche <= 24) and esJubiado):
-    print("(unidadesDeLeche >12 and unidadesDeLeche <= 24) and esJubiado")
+elif((unidadesDeLeche >12 and unidadesDeLeche <= 24) and esJubiado):#ok
+    print("(unidadesDeLeche >12 and unidadesDeLeche <= 24) and esJubiado")#ok
     montoAPagar = montoParcial * 0.8
 elif(unidadesDeLeche > 24 and esJubiado):
     print("unidadesDeLeche > 24 and esJubiado")
     montoAPagar = montoParcial * 0.75
 
-print(f"El monto sin descuento es: {montoParcial} y el monto total a pagar es: {montoAPagar}")
+print(f"El monto sin descuento es: {montoParcial} 
+            y el monto total a pagar es: {montoAPagar}")
 
 #Agregar pruebas
+
+""" x=20
+SI(x > 10)ENTONCES
+    x = x - 15
+FSI
+
+SI(x <= 10)ENTONCES
+    x = 1000
+FSI
+
+salida (x) 1000
+=======================
+SI(x > 10)ENTONCES
+     x = x - 15
+SINO
+    x = 1000
+FSI
+salida (x) 5
+"""
