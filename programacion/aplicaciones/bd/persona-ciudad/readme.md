@@ -18,6 +18,8 @@ Para instalar el driver deben ejecutar por linea de comandos:
 
 **python -m pip install mysql-connector-python**
 
+---
+
 Diagrama Crow Foot de la aplicación de ejemplo:
 
 ![1716923015622](image/readme/1716923015622.png)
