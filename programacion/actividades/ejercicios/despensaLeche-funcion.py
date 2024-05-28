@@ -34,6 +34,8 @@ def despensaBarrio(unidadesDeLeche,esJubiado):
     >>> despensaBarrio(30,1)
     25
 
+    Para probar la funcion se debe ejecutarlo con el comando: python -m doctest programacion/actividades/ejercicios/despensaLeche-funcion.py
+
     """
     
     montoParcial = unidadesDeLeche * 1000
