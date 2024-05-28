@@ -9,6 +9,8 @@ Desarrolle una solución algorítmica para saber cuento debe pagar el cliente.
 """
 #Docstring
 # __doc__ (Módulos, Cklases, Métodos y funciones)
+# Ejecutando con -m doctest, ejemplo: python -m doctest despensaLeche-funcion.py se ejecutaran 
+# las pruebas que estan en la documentación.
 
 def despensaBarrio(unidadesDeLeche,esJubiado):
     """       
@@ -20,7 +22,7 @@ def despensaBarrio(unidadesDeLeche,esJubiado):
 
     Imprime en pantalla el monto en bruto, el descuento y el monto a pagar (con los descuentos aplciados)
     La funcion retorna el descuento (int)
-
+    
     >>> despensaBarrio(8,0)
     0
     >>> despensaBarrio(8,1)

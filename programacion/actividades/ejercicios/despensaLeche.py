@@ -50,26 +50,28 @@ elif(unidadesDeLeche > 24 and esJubiado):
     print("unidadesDeLeche > 24 and esJubiado")
     montoAPagar = montoParcial * 0.75
 
-print(f"El monto sin descuento es: {montoParcial} 
-            y el monto total a pagar es: {montoAPagar}")
+print(f"El monto sin descuento es: {montoParcial} y el monto total a pagar es: {montoAPagar}")
 
 #Agregar pruebas
 
-""" x=20
-SI(x > 10)ENTONCES
-    x = x - 15
+""" 
+Analizamos: No es equivalente dos di parciales uno luego del otro que un si entonces sino.
+Caso de prueba: x=20
+
+SI(x > 10)ENTONCES                          
+     x = x - 15                   
 FSI
 
-SI(x <= 10)ENTONCES
-    x = 1000
+SI(x <= 10)ENTONCES                
+     x = 1000                     
 FSI
 
 salida (x) 1000
 =======================
-SI(x > 10)ENTONCES
-     x = x - 15
+SI( x > 10)ENTONCES             
+    x = x - 15            
 SINO
-    x = 1000
+    x = 1000                  
 FSI
 salida (x) 5
 """
