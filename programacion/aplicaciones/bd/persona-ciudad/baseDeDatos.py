@@ -1,8 +1,8 @@
 import mysql.connector
 
 HOST = "localhost"
-USER = "USUARIO"#jconde
-PASSWORD = "CLAVE"#julian2023!
+USER = "USUARIO"
+PASSWORD = "CLAVE"
 BD = "NOMBRE_BASE_DE_DATOS"#nacidos
 
 # Conectarse a la base de datos
