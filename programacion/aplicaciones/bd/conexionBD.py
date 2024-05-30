@@ -1,16 +1,16 @@
 import mysql.connector
 
 HOST = "localhost"
-USER = "USUARIO"#
-PASSWORD = "CLAVE"#
-BD = "NOMBRE_BASE_DE_DATOS"#nacidos
+USER = "jconde"#
+PASSWORD = "julian2023!"#
+BD = "nacidos"#nacidos
 
 mydb = mysql.connector.connect(
-  host=HOST,user=USER,
+  host="localhost",user=USER,
   password=PASSWORD,database=BD
 )
 mycursor = mydb.cursor()
-mycursor.execute("SELECT * FROM persona")
+mycursor.execute("SELECT * FROM Persona WHERE id=3")
 myresult = mycursor.fetchall()
 
 for x in myresult:
